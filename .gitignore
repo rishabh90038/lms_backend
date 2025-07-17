@@ -1,9 +1,45 @@
+# Node modules
 node_modules/
+
+# Environment variables
 .env
 .env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
 logs/
 *.log
-dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
 coverage/
+dist/
+build/
+
+# Database
+*.sqlite
+*.sqlite3
+
+# OS files
 .DS_Store
-npm-debug.log 
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docs and screenshots
+/docs/
+
+# Ignore test output
+/test-output/
+
+# Ignore Swagger UI cache
+.swagger-cache/ 
