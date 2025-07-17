@@ -6,7 +6,7 @@
     "description": "API documentation for the Learning Management System (LMS) backend."
   },
   "servers": [
-    { "url": "http://localhost:5000" }
+    { "url": "https://lms-backend-75sh.onrender.com" }
   ],
   "tags": [
     { "name": "Auth", "description": "Authentication endpoints" },
